@@ -8,7 +8,7 @@ For SQL query we will be using MySQL syntax and will stick to one SQL system for
 
 ## Flow
 
-1. [Read on GitHub?](https://github.com/GodWin1100/Blogs/tree/main/01-Relationships_of_RDBMS)
+1. [Read on Medium?](https://medium.com/@godwin1100/relationships-of-rdbms-f2edc98e0951)
 2. [What is RDBMS?](#what-is-rdbms)
 3. [How the relationship is maintained](#how-the-relationship-is-maintained)
 4. [Context of Use Case Instance](#context-of-use-case-instance)
