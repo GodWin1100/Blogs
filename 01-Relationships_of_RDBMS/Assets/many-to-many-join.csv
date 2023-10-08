@@ -1,0 +1,6 @@
+TagID,BlogID,AuthorID,Title,PublishDate,TagName,ParentTag
+2,1,1,"John's Adventure",2023-09-10,Mountains,1
+6,1,1,"John's Adventure",2023-09-10,Adventure,NULL
+5,2,1,"Anonymous John Doe",2023-10-07,Biography,NULL
+5,3,2,"Uncommon Jane Doe",2023-10-20,Biography,NULL
+4,4,1,"RDBMS's Relationship",2023-10-31,RDBMS,3

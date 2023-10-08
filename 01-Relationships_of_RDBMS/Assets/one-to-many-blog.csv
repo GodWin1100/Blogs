@@ -1,0 +1,5 @@
+BlogID,AuthorID,Title,PublishDate
+1,1,"John's Adventure",2023-09-10
+2,1,"Anonymous John Doe",2023-10-07
+3,2,"Uncommon Jane Doe",2023-10-20
+4,1,"RDBMS's Relationship",2023-10-31

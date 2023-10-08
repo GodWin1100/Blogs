@@ -1,0 +1,3 @@
+FinanceID,CardNo,CardType,AuthorID
+1,123,visa,2
+2,789,"visa prem",1
