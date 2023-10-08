@@ -57,7 +57,7 @@ An **Entity-Relationship Diagram** (ERD) in RDBMS is a visual representation of 
 
 ### ER Diagram Cardinality Notation
 
-![ER Cardinality](./Assets/01/ERD%20Cardinality.png)
+![ER Cardinality](./Assets/ERD%20Cardinality.png)
 
 ## Types of Relationship
 
