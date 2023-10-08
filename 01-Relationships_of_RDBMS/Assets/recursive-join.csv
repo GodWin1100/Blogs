@@ -1,7 +1,0 @@
-TagID,TagName,ParentTag
-1,Region,NULL
-2,Mountains,Region
-3,Tech,NULL
-4,RDBMS,Tech
-5,Biography,NULL
-6,Adventure,NULL

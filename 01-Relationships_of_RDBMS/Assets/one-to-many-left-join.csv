@@ -1,8 +1,0 @@
-BlogID,AuthorID,Title,PublishDate,CommentID,Comment,Commentor
-1,1,"John's Adventure",2023-09-10,1,"Nice Adventure",2
-1,1,"John's Adventure",2023-09-10,2,"Yeah Thanks",1
-1,1,"John's Adventure",2023-09-10,3,"May I know the place?",2
-2,1,"Anonymous John Doe",2023-10-07,NULL,NULL,NULL
-3,2,"Uncommon Jane Doe",2023-10-20,NULL,NULL,NULL
-4,1,"RDBMS's Relationship",2023-10-31,4,"I think it's gonna be good",2
-4,1,"RDBMS's Relationship",2023-10-31,5,"Wish me the Best",1
