@@ -1,6 +1,6 @@
 # Relationships of RDBMS
 
-![Wallpaper](./Assets/wallpaper.jpeg)
+![Wallpaper](./Assets/wallpaper.png)
 
 In this article, we will take a close detailed look at RDBMS relations with actual use case context and its application, including **One-to-one**, **One-to-many**, **Many-to-many**, and **Self-referencing(Recursive) relations**.  
 To build effective relationships, one needs to know the type of relationship, where, when, and how to apply it. Building effective relationships in a database is crucial because it promotes referential integrity enforcement, which in turn facilitates database standardization.
