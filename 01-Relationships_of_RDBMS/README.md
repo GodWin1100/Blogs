@@ -180,7 +180,7 @@ CREATE TABLE `blogs`.`finance` (
   `FinanceID` INT NOT NULL AUTO_INCREMENT,
   `CardNo` VARCHAR(16) NOT NULL,
   `CardType` VARCHAR(45) NOT NULL,
-  `AuthorID` INT `UNIQUE` NOT NULL,
+  `AuthorID` INT UNIQUE NOT NULL,
   PRIMARY KEY (`FinanceID`),
 	FOREIGN KEY (`AuthorID`)
     REFERENCES `blogs`.`author` (`AuthorID`)
