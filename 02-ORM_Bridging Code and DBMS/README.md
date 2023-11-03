@@ -152,6 +152,7 @@ erDiagram
   user ||--|| secret : "Has"
   user ||--o{ comment : "Can"
   user ||--o{ content : "Publish"
+  user ||--o{ content : "Contributes"
   user ||--|{ user_role : "Has"
   role ||--|{ user_role : "Of"
   role ||--|{ role_permission : "Has"
