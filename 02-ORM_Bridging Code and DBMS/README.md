@@ -1,5 +1,7 @@
 # ORM: Bridging Code and DBMS
 
+![Wallpaper](./Assets/wallpaper.png)
+
 If you are new to programming backed by databases, you may have come across the term **ORM** during your research. This blog aims to unravel the complexities of ORM, compare it to traditional SQL queries, shed light on its internal workings, and showcase a practical implementation of use cases with ORMs in NodeJs, Python, and Java.
 
 Whether you're a seasoned developer or just starting your journey, understanding ORM can greatly enhance your ability to work with databases and streamline your projects.
@@ -10,18 +12,18 @@ For curious learners of **SQL**, **Nodejs** and **Python**, resources are availa
 
 ## Flow
 
-1. Read on GitHub?
-2. What is ORM?
-3. ORM Mechanics
-4. Patterns of ORM
-   1. Active Record
-   2. Data Mapper
-5. Context of Use Case Instance
-6. Pros of ORM
-7. Cons of ORM
-8. Key Takeaways
-9. Bonus
-10. Reach Out
+1. Read on Medium?
+2. [What is ORM?](#what-is-orm)
+3. [ORM Mechanics](#orm-mechanics)
+4. [Patterns of ORM](#patterns-of-orm)
+   1. [Active Record](#active-record)
+   2. [Data Mapper](#data-mapper)
+5. [Context of Use Case Instance](#context-of-use-case-instance)
+6. [Pros of ORM](#pros-of-orm)
+7. [Cons of ORM](#cons-of-orm)
+8. [Key Takeaways](#key-takeaways)
+9. [Bonus](#bonus)
+10. [Reach Out](#reach-out)
 
 ## What is ORM?
 
@@ -268,7 +270,7 @@ The use of ORMs can significantly simplify database operations by offering benef
 
 ### Database Tools
 
-Want to connect with several databases using a database management tool? Comparable to **ORM** for linking different datasets, but with visual interaction? [**DBeaver**](https://dbeaver.io/) is the get-go. It is a cross-platform, free, open-source, ever-evolving database tool that anyone working with databases can use. It supports all popular SQL databases and provides a data editor, SQL editor, and database maintenance tools. It also offers a commercial version that can be considered an enhanced, robust edition of the open-source variant.  
+Want to connect with several databases using a database management tool? Comparable to **ORM** for linking different databases, but with visual interaction? [**DBeaver**](https://dbeaver.io/) is the get-go. It is a cross-platform, free, open-source, ever-evolving database tool that anyone working with databases can use. It supports all popular SQL databases and provides a data editor, SQL editor, and database maintenance tools. It also offers a commercial version that can be considered an enhanced, robust edition of the open-source variant.  
 More tools similar to **DBeaver** are [DataGrip](https://www.jetbrains.com/datagrip/) by JetBrains, [TablePlus](https://tableplus.com/), [dbvis](https://www.dbvis.com/) and minimalistic yet notable [Beekeeper Studio](https://www.beekeeperstudio.io/).
 
 ## Reach Out
