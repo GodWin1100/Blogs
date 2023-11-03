@@ -12,7 +12,7 @@ For curious learners of **SQL**, **Nodejs** and **Python**, resources are availa
 
 ## Flow
 
-1. Read on Medium?
+1. [Read on Medium?](https://godwin1100.medium.com/orm-bridging-code-and-dbms-b61dbb0ce798)
 2. [What is ORM?](#what-is-orm)
 3. [ORM Mechanics](#orm-mechanics)
 4. [Patterns of ORM](#patterns-of-orm)
