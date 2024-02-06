@@ -31,8 +31,8 @@ For SQL query we will be using MySQL syntax and will stick to one SQL system for
 ## How the relationship is maintained
 
 - Every table has a `PRIMARY KEY` which is a `UNIQUE` identifier of data/record in each table, with the help of this key we can identify and relate each `UNIQUE` record with another `UNIQUE` record.
-- To create a relation between two tables namely Table A and Table B. We keep the reference of the `PRIMARY KEY` of Table A as a `FOREIGN KEY` in Table B or vice versa.
-- When two table has a relation between them and Table B requires reference to Table A but not vice versa then Table A can be referred to as Parent Table and Table B as Child Table, i.e. Child Table has information which logically depends on the Parent Table. The rule of thumb is to keep the `FOREIGN KEY` column in the Child Table and some business cases may demand it to be in the Parent Table.
+- To create a relation between two tables namely Table A and Table B. We keep the reference to the `PRIMARY KEY` of Table A as a `FOREIGN KEY` in Table B or vice versa.
+- When two tables have a relation between them and Table B requires reference to Table A but not vice versa then Table A can be referred to as Parent Table and Table B as Child Table, i.e. Child Table has information which logically depends on the Parent Table. The rule of thumb is to keep the `FOREIGN KEY` column in the Child Table and some business cases may demand it to be in the Parent Table.
 - If the table has a `FOREIGN KEY` constraint then it has a relation with other data records/tables and the type of relation can be identified based on the constraints on `FOREIGN KEY`.
 - When updating or deleting related records we need to ensure integrity is maintained for that purpose we can add additional constraints of `ON DELETE` & `ON UPDATE` to `FOREIGN KEY` with valid values of `RESTRICT`, `CASCADE`, `SET NULL`, `SET DEFAULT`, or `NO ACTION`.
 
@@ -618,7 +618,7 @@ SELECT * FROM cte;
 
 ### Object Relationship Mapper (ORM)
 
-- **Object-relational mapping** (ORM) is a programming technique that uses **object-oriented programming** (OOP) features in the relational database management system (RDBMS) world.
+- **Object-relational mapping** (ORM) is a programming technique that uses **object-oriented programming** (OOP) features in the relational database management system (RDBMS) world. To deep dive into ORM with practical use cases implemented in `NodeJs` and `Python` read my blog [ORM: Bridging Code and DBMS](https://github.com/GodWin1100/Blogs/tree/main/02-ORM_Bridging_Code_and_DBMS).
 - It often provides a level of database independence i.e. user can learn an ORM framework that can be implemented on various databases which takes the hassle of remembering different keywords for the same logic in several SQL Systems. ORM frameworks protect against SQL injection attacks by handling parameterized queries & input sanitization automatically.
 - It comes with its own set of disadvantages as it adds to performance overhead, requires learning of programming language & ORM framework, can introduce complexity, and hurdle the optimization and database-specific features that may not be available in ORM.
 - ORMs Framework for programming language: SQLAlchemy(`Python`), Sequelize(`NodeJs`), Hibernate(`Java`), ActiveRecord(`Ruby`), etc.
