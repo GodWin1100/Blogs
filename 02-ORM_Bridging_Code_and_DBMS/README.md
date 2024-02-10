@@ -269,6 +269,10 @@ The use of ORMs can significantly simplify database operations by offering benef
   - [SQLAlchemy](https://www.sqlalchemy.org/) _(Data Mapper)_
   - [Django's ORM](https://docs.djangoproject.com/en/4.2/topics/db/) _(Active Record)_
 
+### Relationship in RDBMS
+
+To learn more about relationships in RDBMS you can go and read my blog [Relationships of RDBMS](https://github.com/GodWin1100/Blogs/tree/main/01-Relationships_of_RDBMS) which includes ER Diagram, ER Diagram notation, DDL command for each relation, and practical implementation of Blog Site Database.
+
 ### Database Tools
 
 Want to connect with several databases using a database management tool? Comparable to **ORM** for linking different databases, but with visual interaction? [**DBeaver**](https://dbeaver.io/) is the get-go. It is a cross-platform, free, open-source, ever-evolving database tool that anyone working with databases can use. It supports all popular SQL databases and provides a data editor, SQL editor, and database maintenance tools. It also offers a commercial version that can be considered an enhanced, robust edition of the open-source variant.  
