@@ -271,7 +271,7 @@ The use of ORMs can significantly simplify database operations by offering benef
 
 ### Relationship in RDBMS
 
-To learn more about relationships in RDBMS you can go and read my blog [Relationships of RDBMS](https://github.com/GodWin1100/Blogs/tree/main/01-Relationships_of_RDBMS) which includes ER Diagram, ER Diagram notation, DDL command for each relation, and practical implementation of Blog Site Database.
+To learn more about relationships in RDBMS you can go and read my blog [Relationships of RDBMS](../01-Relationships_of_RDBMS/) which includes ER Diagram, ER Diagram notation, DDL command for each relation, and practical implementation of Blog Site Database.
 
 ### Database Tools
 

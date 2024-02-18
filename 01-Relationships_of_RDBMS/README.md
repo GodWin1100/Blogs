@@ -618,7 +618,7 @@ SELECT * FROM cte;
 
 ### Object Relationship Mapper (ORM)
 
-- **Object-relational mapping** (ORM) is a programming technique that uses **object-oriented programming** (OOP) features in the relational database management system (RDBMS) world. To deep dive into ORM with practical use cases implemented in `NodeJs` and `Python` read my blog [ORM: Bridging Code and DBMS](https://github.com/GodWin1100/Blogs/tree/main/02-ORM_Bridging_Code_and_DBMS).
+- **Object-relational mapping** (ORM) is a programming technique that uses **object-oriented programming** (OOP) features in the relational database management system (RDBMS) world. To deep dive into ORM with practical use cases implemented in `NodeJs` and `Python` read my blog [ORM: Bridging Code and DBMS](./../02-ORM_Bridging_Code_and_DBMS/).
 - It often provides a level of database independence i.e. user can learn an ORM framework that can be implemented on various databases which takes the hassle of remembering different keywords for the same logic in several SQL Systems. ORM frameworks protect against SQL injection attacks by handling parameterized queries & input sanitization automatically.
 - It comes with its own set of disadvantages as it adds to performance overhead, requires learning of programming language & ORM framework, can introduce complexity, and hurdle the optimization and database-specific features that may not be available in ORM.
 - ORMs Framework for programming language: SQLAlchemy(`Python`), Sequelize(`NodeJs`), Hibernate(`Java`), ActiveRecord(`Ruby`), etc.
