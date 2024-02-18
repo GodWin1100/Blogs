@@ -252,7 +252,7 @@ erDiagram
 
 ## Key Takeaways
 
-The use of ORMs can significantly simplify database operations by offering beneficial abstractions. They can assist you in rapid development and iteration while bridging the conceptual gaps between database structures and application logic. It employs out-of-the-box database security practices for communication between the program and the database. However, many of these advantages act as a double-edged sword. ORM can prevent you from the underlying understanding of your databases, make it challenging to debug or increase performance overhead.
+The use of ORMs can significantly simplify database operations by offering beneficial abstractions. They can assist you in rapid development and iteration while bridging the conceptual gaps between database structures and application logic. It employs out-of-the-box database security practices for communication between the program and the database. However, many of these advantages act as a double-edged sword. ORM can prevent you from the underlying understanding of your databases, make it challenging to debug, or increase performance overhead.
 
 ## Bonus
 
