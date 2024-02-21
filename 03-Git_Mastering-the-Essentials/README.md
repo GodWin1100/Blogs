@@ -432,7 +432,7 @@ git branch --all
 To view the branch and its upstream tracking branch
 
 ```bash
-git branch --v
+git branch -vv
 # <branch_name> <abbr_commit_hash> [<upstream_branch>] <latest_commit_message>
 ```
 
