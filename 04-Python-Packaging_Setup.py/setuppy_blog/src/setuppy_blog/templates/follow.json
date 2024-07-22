@@ -1,0 +1,9 @@
+{
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/godwin1100",
+    "medium": "https://medium.com/@godwin1100",
+    "github": "https://github.com/GodWin1100",
+    "leetcode": "https://leetcode.com/godwin1100"
+  },
+  "note": "Due to following setting `package_data={\"setuppy_blog.templates\": [\"*.json\"]}`, json file is included and not *.txt file"
+}

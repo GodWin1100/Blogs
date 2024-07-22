@@ -1,0 +1,1 @@
+Due to following setting `package_data={"setuppy_blog.templates": ["*.json"]}`, json file is included and not *.txt file
