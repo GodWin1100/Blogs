@@ -4,7 +4,7 @@
 
 Packaging Python projects efficiently is a crucial skill for any developer, whether for open-source or internal packages or personal projects. Packaging ensures that applications are easily distributable and maintainable. One of the fundamental tools in this process is `setup.py`, a script used in Python to manage the distribution of software packages.
 
-In this blog, we'll delve into the essentials of `setup.py`, exploring its role in the Python ecosystem, how it simplifies the packaging process, and best practices for creating your setup scripts. To make the learning experience practical and engaging, we'll walk through a hands-on project that demonstrates real-world applications of `setup.py` features, including `console_scripts` for creating command-line tools, `extra_requires` for optional dependencies, and `namespace_packages` for bundling asset files and last but not least we will publish the package to the Python Package Index (PyPI).
+In this blog, we'll delve into the essentials of `setup.py`, exploring its role in the Python ecosystem, how it simplifies the packaging process, and best practices for creating your setup scripts. To make the learning experience practical and engaging, we'll walk through a hands-on project that demonstrates real-world applications of `setup.py` features, including `console_scripts` for creating command-line tools, `extra_requires` for optional dependencies, and how to bundle asset files and last but not least we will publish the package to the Python Package Index (PyPI).
 
 Whether you're a novice aiming to understand the basics or an experienced coder looking to refine your packaging techniques, this guide will equip you with the knowledge to streamline your Python projects effectively.
 
@@ -78,7 +78,7 @@ root # Root/Base path
 │       │       say.py
 │       │       __init__.py
 │       │
-│       ├───templates # Static Asset required by the package (namespace package)
+│       ├───templates # Static Asset required by the package
 │       │       follow.json
 │       │       note.txt
 │       │
